@@ -1,0 +1,14 @@
+/mobile_manip/imu/data 
+/mobile_manip/dingo_velocity_controller/odom 
+/mobile_manip/cmd_vel
+
+/mobile_manip/dingo_velocity_controller/cmd_drive
+
+Pour rouler le roscore et visualiser le rosbag:
+
+
+roscore -p 11381
+rviz
+
+# partir le rosbag
+rosbag play 2025-xyz
